@@ -1,0 +1,7 @@
+{
+  "name": "AppLibreriaSolucionP3_IPDM",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
