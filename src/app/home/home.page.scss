@@ -1,27 +1,18 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.underline {
+  text-decoration: underline;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+
+.titulo-row{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(97, 96, 96);
+  background-color: rgb(182, 180, 180);
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.detalle-row{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(97, 96, 96);
+  background-color: rgb(211, 208, 208);
 }

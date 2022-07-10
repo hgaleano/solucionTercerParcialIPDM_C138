@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'pedido',
+    loadChildren: () => import('./pedido/pedido.module').then( m => m.PedidoPageModule)
+  },
 ];
 
 @NgModule({
